@@ -53,12 +53,12 @@ a{
 
 .section-2 h2{
     font-size: 1.7rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .section-2 p{
     font-size: 1.1rem;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     margin:0;
 }
 
@@ -71,22 +71,19 @@ a{
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
+    padding-left: 5;
     transition: 0.2s;
 }
 
 .section-1 a:hover{
     color: #fff;
+    padding-left: 5;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.white:hover{
-    position: relative;
-    padding-left: 10px;
-}
 
 /* media queres */
 @media(max-width:780px){
