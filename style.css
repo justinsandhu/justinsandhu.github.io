@@ -30,18 +30,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.section-1 a.link {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.5rem 0;
-  cursor: pointer;
-  transition: color 0.2s;
-}
-
-.section-1 a.link:hover {
-  color: #0af;
-}
 
 /* Content */
 .section-2 {
@@ -55,4 +43,40 @@ body {
 
 .section-2 section {
   margin-bottom: 4rem;
+}
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.2s, transform 0.2s;
+  border: none;
+  color: white;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+/* Platform-specific colors */
+.github {
+  background-color: #333;
+}
+
+.mastodon {
+  background-color: #6364ff;
+}
+
+.keybase {
+  background-color: #33a0ff;
 }
